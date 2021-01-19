@@ -8,15 +8,19 @@ print('This application will help you calculation the time needed to achieve tha
 current_age = int(input('Your current age: '))
 goal_age = int(input('Hope to achieve the goal by what age: '))
 
-if current_age and goal_age > 0:
+if current_age > 1 and (goal_age > current_age):
     time_to_achieve = goal_age - current_age
 
-    months = time_to_achieve * 12
-    weeks = time_to_achieve * 52
-    days = time_to_achieve * 365
+    if time_to_achieve > 1:
+        months = time_to_achieve * 12
+        weeks = time_to_achieve * 52
+        days = time_to_achieve * 365
 
-    print(f"You have {days} days, {weeks} weeks, {months} months and {time_to_achieve} "
-          f"years to achieve your goal. Good-luck 🤞🏾💪🏽.")
+        print(f"You have {days} days, {weeks} weeks, {months} months and {time_to_achieve} "
+              f"years to achieve your goal. Good-luck 🤞🏾💪🏽.")
+    else:
+        print('This application calculates long-term goals.\n'
+              'Although, a one year goal will give you 365 days, 52 weeks, and 12 months to achieve it.')
 else:
     print('Invalid inputs.')
 
