@@ -5,6 +5,6 @@
 This is a basic application that calculates the user time constraints in achieving a long time goal.
 
 
-![Demo](https://github.com/A3AJAGBE/bmi-calc/blob/main/bmi-calc-video.gif)
+![Demo](https://github.com/A3AJAGBE/goal-duration/blob/main/goal-duration-video.gif)
 
-[1 0f 2](https://github.com/A3AJAGBE/bmi-calc)
+[Mini-Project or Exercise 1 of 2](https://github.com/A3AJAGBE/bmi-calc)
