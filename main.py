@@ -6,7 +6,7 @@ print('Welcome User, You are using this application because you have a long time
 print('This application will help you calculation the time needed to achieve that goal\n')
 
 current_age = int(input('Your current age: '))
-goal_age = int(input('Age to have achieved that goal: '))
+goal_age = int(input('Hope to achieve the goal by what age: '))
 
 if current_age and goal_age > 0:
     time_to_achieve = goal_age - current_age
