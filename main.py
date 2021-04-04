@@ -1,9 +1,7 @@
 """
-An application that calculates the time constraints in achieving a goal
+An application that calculates how long a goal will be achieved using age.
 """
-
-print('\nWelcome User, You are using this application because you have a long time goal')
-print('This application will help you calculate the time needed to achieve that goal\n')
+print('\nHow long to achieve that goal?')
 
 
 def duration_app():
