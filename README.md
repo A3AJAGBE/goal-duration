@@ -1,5 +1,5 @@
 ## Goal Duration
-This is a basic application that calculates the user time constraints in achieving a long time goal.
+This is a basic application that calculates how long a goal will be achieved using age.
 
 
-![Demo](https://github.com/A3AJAGBE/goal-duration/blob/main/goal-duration-video.gif)
+![Demo](https://github.com/A3AJAGBE/goal-duration/blob/main/goal%20duration-updated.gif)
